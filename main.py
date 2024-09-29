@@ -1,5 +1,5 @@
 import sys
-import googlemessages
+from modules import googlemessages
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QListWidget, QTextEdit, QPushButton
 
 class MessagesClone(QMainWindow):
